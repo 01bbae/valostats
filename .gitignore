@@ -2,3 +2,5 @@
 __pycache__
 flaskvenv
 token.json
+/frontend/src/assets
+*.db

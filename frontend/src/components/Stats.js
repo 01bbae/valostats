@@ -1,12 +1,21 @@
-import React from 'react'
-import Block from './Block'
+import React from "react";
+import { useState, useEffect } from "react";
 
-const Stats = () => {
-    return (
-        <div>
-            <Block title="CharacterStats"/>
-        </div>
-    )
-}
+const Stats = (props) => {
+  // const [matchhistory, setMatchhistory] = useState([{}])
+  // useEffect(() =>
+  // fetch("/something").then(
+  //     (res) => res.json()
+  // ).then((data) => {
+  //         console.log(data);
+  //     }
+  // ))
+  return (
+    <div>
+      <div className="most-played">a</div>
+      <div className="winrate">a</div>
+    </div>
+  );
+};
 
-export default Stats
+export default Stats;
